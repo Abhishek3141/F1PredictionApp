@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity implements DriverAdapter.MyC
 
         Drivers = new ArrayList<>();
 
-        Toast.makeText(this, notes.get(0).getPrediction(), Toast.LENGTH_SHORT).show();
 
         Drivers.add(new Driver(0,"Max Verstappen",R.drawable.ver, "F1 World Champion 2021",Integer.parseInt(notes.get(0).getPrediction())));
         Drivers.add(new Driver(1,"Sergio Perez",R.drawable.per, "First mexican to be on pole in a F1 race",Integer.parseInt(notes.get(1).getPrediction())));
